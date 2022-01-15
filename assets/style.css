@@ -125,11 +125,32 @@ a:link, a:visited, a:hover, a:active {
 }
 
 @media screen and (max-width:820px) {
-  .column {
-    width: 100%;
-  }
+	html, body {
+	  overflow-x: hidden;
+	}
 
-  .column img {
-  	text-align: center;
-  }
+	body {
+	  position: relative
+	}
+
+	.topnav-right {
+		float: none;
+	}
+
+	.topnav {
+		text-align: center;
+	}
+
+	.row {
+		width: 100%;
+	}
+
+	.column {
+    	width: 100%;
+    	float: none;
+	}
+
+	.image {
+		text-align: center;
+	}
 }
