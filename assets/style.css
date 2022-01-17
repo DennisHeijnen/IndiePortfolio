@@ -154,3 +154,13 @@ a:link, a:visited, a:hover, a:active {
 		text-align: center;
 	}
 }
+
+@media screen and (min-width:821px) {
+	.topnav {
+		width: 25%;
+	}
+
+	.row {
+		width: 25%;
+	}
+}
