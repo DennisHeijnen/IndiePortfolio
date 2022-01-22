@@ -155,7 +155,7 @@ a:link, a:visited, a:hover, a:active {
 	}
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 520px) {
 	.topnav {
 		width: 80%;
 	}
@@ -165,7 +165,7 @@ a:link, a:visited, a:hover, a:active {
 	}
 }
 
-@media screen and (min-width:993px) {
+@media screen and (min-width: 1720px) {
 	.topnav {
 		width: 25%;
 	}
@@ -174,3 +174,4 @@ a:link, a:visited, a:hover, a:active {
 		width: 25%;
 	}
 }
+
